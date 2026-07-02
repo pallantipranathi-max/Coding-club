@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <form action="index.php" method="POST">
+            <label for="username" required>username:</label>
+            <input type="text" id="username" placeholder="springbob" minlength="6" maxlength="12" >
+            <br><br>
+<label for="password" required>password:</label>
+<input type="password" id="password" placeholder="xyz12093" minlength="8" >
+<br><br>
+<label for="email id" required>email id:</label>
+<input type="email" id="email id" placeholder="abcd@gmail.com" requried>
+<br><br>
+<label for="phone number" required>phone number:</label>
+ <input type="tel" id="phone number" placeholder="93919-07564" pattern="[0-9]{5}-[0-9]{5}" minlength="11" maxlength="11" >
+ <br><br>
+<label for="date of birth" required>date of birth:</label>
+<input type="date" id="bday">
+<br>
+<br>
+<label for="quantity" required>quantity:</label>
+<input type="number" id="quantity"><br><br>
+<label for="title">title:</label>
+
+<label for="Mr.">Mr.</label>
+<input type="radio" id="Mr." value="Mr." name="title">
+<label for="Mrs.">Mrs.</label>
+<input type="radio" id="Mrs." value="Mrs." name="title">
+<label for="Ms.">Ms.</label>
+<input type="radio" id="Ms." value="Ms." name="title">
+<label for="Dr.">Dr.</label>
+<input type="radio" id="Dr." value="Dr." name="title">
+<br>
+<br>
+<label for="payment" required>payment:</label>
+<select id="payment">
+<option value="UPI">UPI</option>
+<option value="Debit Card">Debit Card</option>
+<option value="Credit Card">Credit Card</option>
+<option value="Bank Payment">Bank Payment</option>
+</select>
+<br><br>
+<label for="comment">comment:</label>
+<textarea id="comment"></textarea> 
+<br><br>
+<input type="checkbox">
+<label for="confirm" required>I confirm my order</label>
+<br><br>
+            <input type="reset">
+            <br><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
