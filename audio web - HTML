@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website </title>
+    </head>
+    <body>
+        <p>No-talk-by-peyruis</p>
+        <audio controls autoplay muted loop>
+            <source src="no-talk-by-peyruis.mp3" type="audio/mp3">
+        </audio>
+        <p>Those-days-by-hotham</p>
+        <audio controls autoplay muted loop>
+            <source src="those-days-by-hotham.mp3" type="audio/mp3">
+        </audio>
+
+    </body>
+</html>
+
+Video Act
+->code
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first website </title>
+    </head>
+    <body>
+        <a href="https://en.wikipedia.org/wiki/Meghalaya">
+       <video src="16057963_2560_1440_60fps.mp4" controls loop autoplay width="500px" ></video>
+        </a>
+    </body>
+</html>
