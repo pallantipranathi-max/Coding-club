@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My First page</title>
+        <meta charset="UTF-8" >
+        <meta name="viewport" content="width=device-width,intial scale=1.0">
+    </head>
+    <body>
+       <h1>"Welcome to My Page "</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+         Laudantium asperiores, iste nisi incidunt dolor magni expedita<br> autem laborum hic sapiente architecto voluptas quas minus consequuntur quo rem error fugiat impedit.</p>
+    </body>
+</html>
