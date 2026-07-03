@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover amazing travel destinations and book your dream vacation. Explore top packages, prices, and tours at our travel agency.">
+<title>Warmiee Travel Agency</title>
+  </head>
+  <body>
+  <h1>Travel Agency</h1>
+  
+  <p>Discover amazing travel destinations and book your dream vacation. Explore our curated selection of vacation packages, luxury resorts, and unforgettable experiences. Whether you're seeking adventure, relaxation, or cultural exploration, we have the perfect travel opportunity for you.</p>
+  
+  <h2>Packages</h2>
+  
+  <p>We offer a wide range of travel packages tailored to suit every budget and preference. From budget-friendly getaways to luxury retreats, our carefully curated packages include flights, accommodation, meals, and guided tours. Choose from popular destinations and explore the world with us.</p>
+  
+  <ul>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+  <li><a href="https://www.freecodecamp.org/learn"target="_blank">Private Tours</a></li>
+</ul>
+<h2>Top Itineraries</h2>
+
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="Colosseum in Rome, Italy">
+  </a>
+  <figcaption>Colosseum in Rome, Italy</figcaption>
+
+</figure>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt=" Tre Cime di Lavaredo mountains, located in the Dolomites range of Northern Italy.">
+  </a>
+  <figcaption>Tre Cime di Lavaredo mountains, located in the Dolomites range of Northern Italy.</figcaption>
+
+</figure>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt=" This stunning photo captures a white yacht moored in the turquoise waters of the Bue Marino beach in Favignana, Italy.">
+  </a>
+  <figcaption>This stunning photo captures a white yacht moored in the turquoise waters of the Bue Marino beach in Favignana, Italy.</figcaption>
+
+</figure>
+</body>
+  </html>
