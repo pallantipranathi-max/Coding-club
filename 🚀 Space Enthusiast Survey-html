@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Enthusiast Survey</title>
+</head>
+<body>
+    <h1 id="title">🚀 Space Enthusiast Survey</h1>
+    <p id="description">Help us understand your passion for space exploration, rockets, and astronomy. Your feedback helps us create better content for space lovers!</p>
+
+    <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Full Name (required):</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br>
+
+        <!-- Email -->
+        <label id="email-label" for="email">Email Address (required):</label>
+        <input type="email" id="email" name="email" placeholder="your.email@example.com" required><br>
+
+        <!-- Number -->
+        <label id="number-label" for="number">How many space missions have you followed? (0-100):</label>
+        <input type="number" id="number" name="number" placeholder="e.g., 15" min="0" max="100"><br>
+
+        <!-- Dropdown -->
+        <label for="dropdown">What interests you most in space?</label>
+        <select id="dropdown" name="space-interest" required>
+            <option value="">--Select an option--</option>
+            <option value="rockets">Rocket Technology</option>
+            <option value="planets">Planetary Science</option>
+            <option value="astronomy">Astronomy & Stars</option>
+            <option value="missions">Space Missions</option>
+            <option value="astrophysics">Astrophysics</option>
+        </select>
+<br><br>
+        <!-- Radio Buttons -->
+        <fieldset>
+            <legend>What is your experience level with space topics?</legend>
+            <input type="radio" id="beginner" name="experience" value="beginner">
+            <label for="beginner">Beginner</label>
+
+            <input type="radio" id="intermediate" name="experience" value="intermediate">
+            <label for="intermediate">Intermediate</label>
+
+            <input type="radio" id="advanced" name="experience" value="advanced">
+            <label for="advanced">Advanced</label>
+        </fieldset><br>
+
+        <!-- Checkboxes -->
+        <fieldset>
+            <legend>Which space topics interest you? (Check all that apply)</legend>
+            <input type="checkbox" id="rockets" name="topics" value="rockets">
+            <label for="rockets">Rockets & Launch Systems</label>
+
+            <input type="checkbox" id="satellites" name="topics" value="satellites">
+            <label for="satellites">Satellites & Space Stations</label>
+
+            <input type="checkbox" id="exoplanets" name="topics" value="exoplanets">
+            <label for="exoplanets">Exoplanets & Habitability</label>
+
+            <input type="checkbox" id="moonbase" name="topics" value="moonbase">
+            <label for="moonbase">Moon & Mars Exploration</label>
+
+            <input type="checkbox" id="blackholes" name="topics" value="blackholes">
+            <label for="blackholes">Black Holes & Cosmology</label>
+        </fieldset><br>
+
+        <!-- Textarea -->
+        <label for="comments">Additional Comments or Dream Space Project:</label>
+        <textarea id="comments" name="comments" rows="5" placeholder="Share your thoughts about space exploration, your favorite rocket, or dream mission..."></textarea>
+
+        <!-- Submit Button -->
+        <button type="submit" id="submit">Launch Survey 🚀</button>
+    </form>
+</body>
+</html>
