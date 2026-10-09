@@ -1,0 +1,42 @@
+#strings
+first_name = "Pranathi"
+food="noodles"
+email="pallantipranathi@gmail.com"
+print(f"Hello {first_name}")
+print(f"you like {food}")
+print(f"your email is {email}")
+
+#integers
+age=18
+quantity=3
+num_of_students=30
+print(f"your age is {age}")
+print(f"you are buying {quantity} items")
+print(f"you have {num_of_students} students")
+
+#float
+price= 10.99
+gpa= 9.2
+distance=5.5
+print(f"your price is ${price}")
+print(f"your gpa is {gpa}")
+print(f"you ran {distance}km ")
+
+#boolean
+is_student=True
+print(f"Are you a student?: {is_student}")
+for_sale=True
+is_online=False
+if is_student:
+    print("You are a student")
+else:
+    print("You are not a student")
+
+if for_sale:
+    print("That item is for sale")
+else:
+    print("That item is not for sale")
+if is_online:
+    print("you are online")
+else:
+    print("you are not online")
