@@ -1,0 +1,15 @@
+def shipping_label(*args,**kwargs):  # args then kwargs because positional argument followed by keyword argument
+     for arg in args:
+         print(arg,end=" ")
+     print()
+     if "Apt" in kwargs:
+         print(f"{kwargs.get('street')} {kwargs.get('Apt')}")
+     elif "Pobox" in kwargs:
+         print(f"{kwargs.get('street')}")
+         print(f"{kwargs.get('Pobox')}")
+     else:
+         print(f"{kwargs.get('street')}")
+     print(f"{kwargs.get('City')} {kwargs.get('State')} {kwargs.get('Zip')}")
+
+shipping_label("Dr.","Sponge bob","Square pants","III",
+               street="123 Fake ST.",Pobox="PO box#100",City="Detroit",State="MI",Zip="54129")
